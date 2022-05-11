@@ -1,6 +1,7 @@
 
 
 
+
             var textoDado = document.querySelector(".cripto")
             var mostra = document.querySelector(".input")
             function submit(){
