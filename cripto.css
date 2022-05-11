@@ -1,0 +1,89 @@
+html{
+    background: linear-gradient(45deg, #FEFEFEFE,#CECECE,#000000 );
+}
+body{
+   
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    width: 940px;
+    margin:80px auto;
+    display:flex;
+    position: relative;
+    
+}
+
+section{
+width: 70%;
+height: 540px;
+margin:auto;
+
+    
+}
+.campo-digitacao{
+    background: #000000;
+    color:white;
+    height:540px; 
+    text-align: center;
+    width:95%;
+    font-size:30px;
+}
+.code{
+    margin:0 0 10px 0;
+}
+.codificar{
+   position:relative;
+   margin:auto;
+   color:#FFFFFF;
+}
+.campo-codificar{
+    position:relative;
+    margin:auto;
+    color:#000000;
+}
+.cripto{
+    padding:25px;
+    margin:95px 0 0 30px;
+    color:#000000;
+    
+}
+.but-one{
+    height: 50px;
+    border-radius: 5px;
+    margin:0 0 0 145px;
+}
+.but-two{
+    height: 50px;
+    border-radius: 5px;
+    color:#000000;
+}
+.input{
+    color:#000000;
+    height: 90px;
+    width: 80%;
+    margin: 30px 20px;
+    padding: 30px;
+    font-size: 20px;
+}
+.label-mensagem{
+    position:relative;
+    margin:auto;
+}
+.mensagem{
+    width: 350px;
+    height:250px;
+    position:relative;
+    margin:auto;
+    top: 30px;
+   
+}
+.copiar{
+    width:25%;
+    height:45px;
+    color:#000000;
+    padding:20px;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+}
