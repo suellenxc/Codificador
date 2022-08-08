@@ -40,14 +40,14 @@
         function copiar (texto)
         {
         navigator.clipboard.writeText(texto.value)
-
-        
+        alert("Seu texto foi copiado!")     
+        /*
         {if (confirm (texto) == true) {
             texto = "Seu texto foi copiado!";
         }
         else {texto = "Seu texto não foi copiado";}
     }
-    document.getElementById(".input").innerHTML = texto;
+    document.getElementById(".input").innerHTML = texto;*/
       }
         
 
