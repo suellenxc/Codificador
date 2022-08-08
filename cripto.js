@@ -40,8 +40,7 @@
         function copiar (texto)
         {
         navigator.clipboard.writeText(texto.value)
-        {if (texto) 
-        var texto = document.getElementById("copiado").value
+        {if (texto)document.getElementById("copiado").value
     
     else "not copy"}
         } 
