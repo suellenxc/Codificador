@@ -40,17 +40,17 @@
         function copiar (texto)
         {
         navigator.clipboard.writeText(texto.value)
-        } 
 
-        function copyText() {
-            var texto = document.getElementById(".input")
-            navigator.clipboard.writeText(texto.value)
+        {if (confirm (texto) == true) {
+            texto = "Seu texto foi copiado!";
+        }
+        else {texto = "Seu texto não foi copiado";}
+    }
+    document.getElementById(".input").innerHTML = texto;
+      }
+        
+
+        
             
-            {if (texto)document.getElementById(texto.value)="texto copiado"
-    
-            else "texto não copiado"}
-            /*var copyText = document.getElementById("msg");
-            navigator.clipboard.writeText(copyText.value);
-            */
-          }
+        
 
