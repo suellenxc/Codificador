@@ -40,13 +40,23 @@
         function copiar (texto)
         {
         navigator.clipboard.writeText(texto.value)
+        bootbox.alert("Hello World");
 
+        $('.input').click(function(){
+          bootbox.alert('Texto copiado!', function(){
+            bootbox.alert('Texto não copiado!');
+          });
+        });
+
+
+
+        /*
         {if (confirm (texto) == true) {
             texto = "Seu texto foi copiado!";
         }
         else {texto = "Seu texto não foi copiado";}
     }
-    document.getElementById(".input").innerHTML = texto;
+    document.getElementById(".input").innerHTML = texto; */
       }
         
 
