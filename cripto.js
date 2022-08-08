@@ -37,8 +37,10 @@
             texto.value = frase
         }
         var texto = document.querySelector(".input")
-        function copiar (texto){
+        function copiar (texto)
+        {
         navigator.clipboard.writeText(texto.value)
-        
+        {if (copiar) 
+        var texto = document.getElementById("copiado").value}
         } 
 
